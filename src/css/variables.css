@@ -1,0 +1,13 @@
+:root {
+    --primary-color: #3E425A;
+    --secundary-color: #6F90C2;
+    --black: #000;
+    --white: #fff;
+    --dark-grey: #282828;
+    --gradient: linear-gradient(90deg, rgba(111,144,194,1) 0%, rgba(40,40,40,1) 15%);
+}
+
+:root {
+    --principal-font: "Oxanium", sans-serif;
+    --secondary-font: "Rubik", sans-serif;
+}
