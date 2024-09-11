@@ -1,0 +1,63 @@
+.aboutme {
+    margin-top: 40px;
+}
+
+.aboutme .img-about {
+    max-width: 40%;
+}
+
+.aboutme .img-about img {
+    border-radius: 20px;
+    box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
+}
+
+.aboutme .text-about {
+    max-width: 50%;
+    position: relative;
+}
+
+.aboutme .text-about::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    width: 50%; /* Metade da largura da div */
+    height: 4px; /* Espessura da borda */
+    background-color: var(--secondary-color);
+}
+
+.aboutme .text-about h2 {
+    margin-top: 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+    position: relative;
+}
+
+.aboutme .text-about h2::before {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    top: 35px;
+    left: -18px;
+}
+
+.aboutme .text-about h2::after {
+    content: '';
+    position: absolute;
+    width: 110px;
+    height: 4px;
+    background-color: var(--secondary-color);
+    top: 88px;
+    left: -75px;
+    rotate: 90deg;
+}
+
+.aboutme .text-about p {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 10% 5px;
+}
+

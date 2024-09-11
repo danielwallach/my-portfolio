@@ -17,6 +17,10 @@ hr {
     margin-top: 0px;
 }
 
+.home {
+    min-height: 86vh;
+}
+
 .home .container {
     display: flex;
     align-items: center;
