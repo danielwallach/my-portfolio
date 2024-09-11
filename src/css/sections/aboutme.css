@@ -21,8 +21,8 @@
     position: absolute;
     bottom: 0;
     left: 25%;
-    width: 50%; /* Metade da largura da div */
-    height: 4px; /* Espessura da borda */
+    width: 50%; 
+    height: 4px; 
     background-color: var(--secondary-color);
 }
 
@@ -61,3 +61,41 @@
     margin: 10% 5px;
 }
 
+@media(max-width: 1051px) {
+
+    .aboutme .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+}
+
+@media(max-width: 768px) {
+    .aboutme .text-about {
+        max-width: 80%;
+    }
+
+    .aboutme .text-about p {
+        font-size: 18px;
+    }
+
+    .aboutme .img-about {
+        max-width: 70%;
+    }
+}
+
+@media(max-width: 375px) {
+
+    .aboutme .text-about {
+        max-width: 80%;
+    }
+
+    .aboutme .text-about p {
+        font-size: 16px;
+    }
+
+    .aboutme .img-about {
+        max-width: 80%;
+    }
+}
