@@ -19,6 +19,7 @@ hr {
 
 .home {
     min-height: 86vh;
+    margin-bottom: 38px;
 }
 
 .home .container {
@@ -58,13 +59,13 @@ hr {
 .home .img-home img {
     max-width: 161px;
     max-height: 161px;
-    margin-top: 88px;
+    margin-top: 50px;
     box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
     border-radius: 50%;
 }
 
 .home .social-media-home {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .home .social-media-home a i {
     font-size: 3rem;

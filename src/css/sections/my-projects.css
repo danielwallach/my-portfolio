@@ -1,0 +1,92 @@
+.my-projects {
+    min-height: 100vh;
+}
+.my-projects .container {
+    align-items: center;
+    flex-direction: column;
+}
+
+.my-projects h2 {
+    font-family: var(--principal-font);
+    font-size: 2.4rem;
+    border-bottom: 5px solid var(--secondary-color);
+    padding-bottom: 10px;
+    margin-bottom: 21px;
+}
+
+.my-projects .project {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.my-projects .project .project-img {
+    max-width: 30%;
+}
+
+.my-projects .project .project-description {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-projects .project .project-description h3 {
+    color: var(--white);
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 5px;
+}
+
+.my-projects .project .project-description p {
+    font-family: var(--secondary-font);
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.my-projects a {
+    font-family: var(--principal-font);
+    color: var(--dark-grey);
+    font-size: 2rem;
+    background-color: var(--secondary-color);
+    width: 150px;
+    text-align: center;
+    margin-top: auto;
+    align-self: center;
+}
+
+.my-projects a:hover {
+    background: var(--gradient);
+    color: var(--white);
+}
+
+@media (max-width: 768px) {
+    .my-projects .project .project-img {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 425px) {
+    .my-projects .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-projects .project .project-img {
+        max-width: 90%;
+    }
+    
+    .my-projects .project .project-description {
+        max-width: 100%;
+    }
+
+    .my-projects .project .project-description p, 
+    .my-projects .project .project-description h3 {
+        font-size: 1.8rem;
+    }
+
+    
+}
