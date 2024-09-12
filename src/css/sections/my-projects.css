@@ -1,6 +1,7 @@
 .my-projects {
     min-height: 100vh;
 }
+
 .my-projects .container {
     align-items: center;
     flex-direction: column;
