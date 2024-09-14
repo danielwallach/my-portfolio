@@ -8,6 +8,7 @@
 }
 
 .aboutme .img-about img {
+    height: 576px;
     border-radius: 20px;
     box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
 }
