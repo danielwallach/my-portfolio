@@ -20,6 +20,7 @@
     width: 70%;
     gap: 50px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .skills .skills-list .skill-icon {
@@ -43,6 +44,25 @@
 .skills .skills-list .skill-icon i:hover,
 .skills .skills-list .skill-icon p:hover {
     color: var(--secondary-color);
+}
+
+.skills .resume {
+    text-align: center;
+}
+
+.skills .resume button {
+    width: 90px;
+    height: 25px;
+    border: 1px solid var(--primary-color);
+    border-radius: 9px;
+    cursor: pointer;
+    color: var(--primary-color);
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+}
+
+.skills .resume button:hover {
+    background-color: rgba(62, 66, 90, 0.5);
+    
 }
 
 @media (max-width: 768px) {

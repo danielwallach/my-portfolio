@@ -57,6 +57,7 @@
     text-align: center;
     margin-top: auto;
     align-self: center;
+    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
 }
 
 .my-projects a:hover {
