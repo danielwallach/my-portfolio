@@ -8,7 +8,7 @@
 }
 
 .aboutme .img-about img {
-    height: 576px;
+    height: auto;
     border-radius: 20px;
     box-shadow: 6px 8px 5px rgba(0, 0, 0, 0.5);
 }
@@ -60,7 +60,7 @@
     font-family: var(--secondary-font);
     font-size: 2rem;
     font-weight: 300;
-    margin: 10% 5px;
+    margin: 5% 5px;
 }
 
 @media(max-width: 1051px) {

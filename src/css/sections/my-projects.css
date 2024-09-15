@@ -42,6 +42,10 @@
     padding: 5px;
 }
 
+.my-projects .project .project-description h3 span {
+    font-weight: 300;
+}
+
 .my-projects .project .project-description p {
     font-family: var(--secondary-font);
     font-size: 2rem;
