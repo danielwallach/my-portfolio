@@ -47,9 +47,9 @@
                 </label>
 
                 <ul>
-                    <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#my-projects">My Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#about-me" class="translate" data-en="About Me" data-pt="Sobre Mim">About Me</a></li>
+                    <li><a href="#my-projects" class="translate" data-en="My Projects" data-pt="Meus Projetos">My Projects</a></li>
+                    <li><a href="#skills" class="translate" data-en="Skills" data-pt="Habilidades">Skills</a></li>
                 </ul>
             </nav>
         </div>
@@ -60,11 +60,11 @@
     <section class="home">
 
         <div class="select-language">
-            <p class="p-language">Language</p>
+            <p class="p-language translate" data-en="Language" data-pt="Idioma">Language</p>
             <hr>
-            <a href="">PT</a> 
+            <button onclick="setLanguage('pt')">PT</button> 
                 | 
-            <a href="">EN</a>
+            <button onclick="setLanguage('en')">EN</button>
         </div>
 
         <div class="container">
@@ -72,9 +72,9 @@
                 <img src="src/images/perfil com moldura.png" alt="Imagem do perfil">
             </div>
             <div class="text-home">
-                <p>Hi,</p>
-                <h1>i'm Daniel Wallach!</h1>
-                <h2><span>I am developer front end.</span> I am at the beginning of my career and since the beginning of 2023 I have been looking to grow and improve my knowledge. I am currently looking for opportunities to work professionally in the area.</h2>
+                <p class="translate" data-en="Hi," data-pt="Oi,">Hi,</p>
+                <h1 class="translate" data-en="i'm Daniel Wallach!" data-pt="me chamo Daniel Wallach!">i'm Daniel Wallach!</h1>
+                <h2 class="translate" data-en='<span class="span">I am developer front end.</span> I am at the beginning of my career and since the beginning of 2023 I have been looking to grow and improve my knowledge. I am currently looking for opportunities to work professionally in the area.' data-pt='<span class="span">Sou um desenvolvedor front-end.</span> Estou no início da minha carreira e desde o início de 2023 venho buscando crescer e aprimorar meus conhecimentos. Atualmente estou buscando oportunidades para atuar profissionalmente na área.'><span class="span">I am developer front end.</span> I am at the beginning of my career and since the beginning of 2023 I have been looking to grow and improve my knowledge. I am currently looking for opportunities to work professionally in the area.</h2>
             </div>
             
             <div class="social-media-home">
@@ -100,11 +100,11 @@
                 <img src="src/images/IMG-20240804-WA0057.jpg" alt="Foto Daniel Wallach quadrada">
             </div>
             <div class="text-about">
-                <h2>About Me</h2>
-                <p>My contact with technology dates back a few years when I studied Computer Science. University wasn't quite what I expected and for other reasons I decided to leave.</p>
-                <p>I followed other paths, studied new things, but I was always close to technology and now I decided to face the world of web development specifically and directly.</p>
-                <p>I'm a guy who likes simple things. I enjoy any kind of art, creativity, traveling, humor, beer, coffee, barbecue, pizza, sushi, my friends and my family.</p>
-                <p>And now my focus is to specialize and learn more and more to act as an excellent frontend and enter the job market once and for all!</p>
+                <h2 class="translate" data-en="About Me" data-pt="Sobre Mim">About Me</h2>
+                <p class="translate" data-en="My contact with technology dates back a few years when I studied Computer Science. University wasn't quite what I expected and for other reasons I decided to leave." data-pt="Meu contato com a tecnológia vem de alguns anos atrás quando cursei Ciências da Computação. A universidade não foi muito o que eu esperava e também por outras razões resolvi sair.">My contact with technology dates back a few years when I studied Computer Science. University wasn't quite what I expected and for other reasons I decided to leave.</p>
+                <p class="translate" data-en="I followed other paths, studied new things, but I was always close to technology and now I decided to face the world of web development specifically and directly." data-pt="Segui outros caminhos, estudei coisas novas, mas sempre estive próximo a tecnológia e agora resolvi encarar de forma específica e direta o mundo do desenvolvimento web.">I followed other paths, studied new things, but I was always close to technology and now I decided to face the world of web development specifically and directly.</p>
+                <p class="translate" data-en="I'm a guy who likes simple things. I enjoy any kind of art, creativity, traveling, humor, beer, coffee, barbecue, pizza, sushi, my friends and my family." data-pt="Eu sou um cara que gosta de coisas simples. Curto qualquer tipo de arte, criatividade, viajar, humor, cerveja, café, churrasco, pizza, sushi, meus amigos e minha família.">I'm a guy who likes simple things. I enjoy any kind of art, creativity, traveling, humor, beer, coffee, barbecue, pizza, sushi, my friends and my family.</p>
+                <p class="translate" data-en="And now my focus is to specialize and learn more and more to act as an excellent frontend and enter the job market once and for all!" data-pt="E agora meu foco é me especializar e aprender cada vez mais para atuar como um frontend de excelência e entrar de vez no mercado de trabalho!">And now my focus is to specialize and learn more and more to act as an excellent frontend and enter the job market once and for all!</p>
             </div>
         </div>
     </section>
@@ -112,15 +112,15 @@
     <section class="my-projects" id="my-projects">
         <div class="container">
             
-            <h2>My Projects</h2>
+            <h2 class="translate" data-en="My Projects" data-pt="Meus Projetos">My Projects</h2>
             
             <div class="project">
                 <div class="project-img">
                     <img src="src/images/projeto-xdevs.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp; <span>X - DEVS</span></h3>
-                    <p>It's a single page with a carousel of cards, where these cards are characters that mix the X-Men universe with the developers' universe.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>X - DEVS</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>X - DEVS</span>">Project:&nbsp;&nbsp;&nbsp; <span>X - DEVS</span></h3>
+                    <p class="translate" data-en="It's a single page with a carousel of cards, where these cards are characters that mix the X-Men universe with the developers' universe." data-pt="É uma página única com um carrosel de cards, onde esses cards são personagens que misturam o universo dos X-Mens com o universo dos desenvolvedores.">It's a single page with a carousel of cards, where these cards are characters that mix the X-Men universe with the developers' universe.</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -133,8 +133,8 @@
                     <img src="src/images/projeto-agenciaxyz.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp; <span>Agência XYZ</span></h3>
-                    <p>Landing Page de uma agência genérica de publicidade chamada XYZ. Projeto feito utilizando conceitos de flex box e grid que foi prática no curso DevQuest.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>Agency XYZ</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>Agência XYZ</span>">Project:&nbsp;&nbsp;&nbsp;>Project:&nbsp;&nbsp;&nbsp; <span>Agência XYZ</span></h3>
+                    <p class="translate" data-en="Landing Page for a generic advertising agency called XYZ. Project made using flex box and grid concepts that were practiced in the DevQuest course." data-pt="Landing Page de uma agência genérica de publicidade chamada XYZ. Projeto feito utilizando conceitos de flex box e grid que foi prática no curso DevQuest.">Landing Page de uma agência genérica de publicidade chamada XYZ. Projeto feito utilizando conceitos de flex box e grid que foi prática no curso DevQuest.</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -146,8 +146,8 @@
                     <img src="src/images/projeto-gta.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp;<span>Sales page GTA V</span></h3>
-                    <p>This project is a simulation of a sales page for the launch of the successful game, GTA V.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>Sales page GTA V</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>Página de vendas GTA V</span>">Project:&nbsp;&nbsp;&nbsp;>Project:&nbsp;&nbsp;&nbsp;<span>Sales page GTA V</span></h3>
+                    <p class="translate" data-en="This project is a simulation of a sales page for the launch of the successful game, GTA V." data-pt="Essa projeto é uma simulação de uma página de vendas do lançamento do jogo de sucesso GTA V.">This project is a simulation of a sales page for the launch of the successful game, GTA V.</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -159,8 +159,8 @@
                     <img src="src/images/projeto-agregador-de-links.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp;<span>Link aggregator</span></h3>
-                    <p>Project to use as a link aggregator or link tree with "dark/light mode" button. It serves to gather several links, personal or professional, in a single place.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>Link aggregator</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>Agregador de Links</span>">Project:&nbsp;&nbsp;&nbsp;>Project:&nbsp;&nbsp;&nbsp;<span>Link aggregator</span></h3>
+                    <p class="translate" data-en="Project to use as a link aggregator or link tree with dark/light mode button. It serves to gather several links, personal or professional, in a single place." data-pt="Projeto para usar como um agregador de links ou árvore de links com botão dark/light mode. Serve para reunir vários links, pessoais ou profissionais em um único lugar.">Project to use as a link aggregator or link tree with "dark/light mode" button. It serves to gather several links, personal or professional, in a single place.</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -172,8 +172,8 @@
                     <img src="src/images/projeto-portfolio-maisprati.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp;<span>Portfolio Template</span></h3>
-                    <p>Template that can be used as a portfolio to showcase projects and skills to professional contacts.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>Portfolio Template</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>Template de Portfólio</span>">Project:&nbsp;&nbsp;&nbsp;>Project:&nbsp;&nbsp;&nbsp;<span>Portfolio Template</span></h3>
+                    <p class="translate" data-en="Template that can be used as a portfolio to showcase projects and skills to professional contacts." data-pt="Template que pode ser usado como portifólio para divulgar projetos e habilidades para contatos profissionais.">Template that can be used as a portfolio to showcase projects and skills to professional contacts.</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -185,8 +185,8 @@
                     <img src="src/images/projeto-mariobros.png" alt="Tumblr de um projeto">
                 </div>
                 <div class="project-description">
-                    <h3>Project:&nbsp;&nbsp;&nbsp;<span>Mario Bros game</span></h3>
-                    <p>Project for a Mario Bros game using a little javascript.</p>
+                    <h3 class="translate" data-en="Project &nbsp;&nbsp;&nbsp;<span>Mario Bros game</span>" data-pt="Projeto &nbsp;&nbsp;&nbsp;<span>Jogo Mário Bros</span>">Project:&nbsp;&nbsp;&nbsp;>Project:&nbsp;&nbsp;&nbsp;<span>Mario Bros game</span></h3>
+                    <p class="translate" data-en="Project for a Mario Bros game using a little javascript and key frames for animation." data-pt="Projeto de um joguinho do mario bros utilizando um pouco de javascript e key frames para animação.">Project for a Mario Bros game using a little javascript and key frames for animation</p>
                     <a href="">link</a>
                 </div>
             </div>
@@ -195,7 +195,7 @@
 
     <section class="skills" id="skills">
         <div class="container">
-            <h2>Skills</h2>
+            <h2 class="translate" data-en="Skills" data-pt="Habildiades">Skills</h2>
             
             <div class="skills-list">
                 <div class="skill-icon">
@@ -229,7 +229,7 @@
             </div>
             
             <div class="resume">
-                <h2>My Resume</h2>
+                <h2 class="translate" data-en="My Resume" data-pt="Meu CV">My Resume</h2>
                 <a href="src/archives/daniel-wallach-cv.pdf" target="_blank"><button>download</button></a>
             </div>
         </div>
@@ -237,7 +237,7 @@
 
     <footer>
         <div class="container">
-            <h2>My Social Networks</h2>
+            <h2 class="translate" data-en="My Social Networks" data-pt="Minhas Redes Sociais">My Social Networks</h2>
             <div class="social-media-footer">
                 <a href="https://www.linkedin.com/in/dannielwallach0/" target="_blank">
                     <i class="fab fa-linkedin-in"></i>
