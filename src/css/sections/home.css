@@ -89,3 +89,15 @@
 .home .social-media-home i:hover {
     background-color: var(--secondary-color)
 }
+
+@media (max-width:768px) {
+    .home .text-home {
+        max-width: 70%;
+    }
+}
+
+@media (max-width:425px) {
+    .home .text-home {
+        max-width: 80%;
+    }
+}
