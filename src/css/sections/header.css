@@ -1,7 +1,11 @@
 .header {
     padding: 10px 15px;
     background: var(--gradient);
-    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
 }
 
 .container {
@@ -72,9 +76,10 @@
     display: block;
     width: 30px;
     height: 2px;
-    top: 23px;
-    left: 15px;
+    top: 15px;
+    left: -15px;
     transition: 0.5s ease-in-out;
+    text-align: center;
 }
 
 .header .hamburguer:before,
@@ -132,7 +137,7 @@
     .header nav {
         position: absolute;
         top: 30px;
-        right: 8px;
+        right: 40px;
         z-index: 1;
         margin: auto;
     }
@@ -141,6 +146,7 @@
         display: none;
         background-color: var(--dark-grey);
         padding: 20px;
+        margin-top: 0;
     }
 
    .header nav li a {

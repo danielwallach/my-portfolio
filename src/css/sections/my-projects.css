@@ -1,5 +1,6 @@
 .my-projects {
     min-height: 100vh;
+    margin-top: 80px;
 }
 
 .my-projects .container {
@@ -72,6 +73,26 @@
 @media (max-width: 768px) {
     .my-projects .project .project-img {
         max-width: 50%;
+    }
+}
+
+@media (max-width: 437px) {
+    .my-projects .project {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .my-projects .project .project-img {
+        max-width: 90%;
+    }
+    
+    .my-projects .project .project-description {
+        max-width: 95%;
+    }
+
+    .my-projects .project .project-description p, 
+    .my-projects .project .project-description h3 {
+        font-size: 1.8rem;
     }
 }
 
