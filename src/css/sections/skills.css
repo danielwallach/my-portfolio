@@ -10,7 +10,7 @@
 }
 
 .skills h2 {
-    font-family: var(--principal-font);
+    font-family: var(--secondary-font);
     font-size: 2.4rem;
     border-bottom: 5px solid var(--secondary-color);
     padding-bottom: 10px;
@@ -38,7 +38,7 @@
 
 .skills .skills-list .skill-icon p {
     color: var(--primary-color);
-    font-family: var(--secondary-font);
+    font-family: var(--principal-font);
     font-size: 2.4rem;
     font-weight: 300;
     margin: auto;
@@ -60,7 +60,7 @@
     border-radius: 9px;
     cursor: pointer;
     color: var(--primary-color);
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
 }
 
 .skills .resume button:hover {

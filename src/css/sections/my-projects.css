@@ -10,7 +10,7 @@
 }
 
 .my-projects h2 {
-    font-family: var(--principal-font);
+    font-family: var(--secondary-font);
     font-size: 2.4rem;
     border-bottom: 5px solid var(--secondary-color);
     padding-bottom: 10px;
@@ -36,7 +36,7 @@
 
 .my-projects .project .project-description h3 {
     color: var(--white);
-    font-family: var(--secondary-font);
+    font-family: var(--principal-font);
     font-size: 2rem;
     font-weight: bold;
     background-color: var(--primary-color);
@@ -49,13 +49,13 @@
 }
 
 .my-projects .project .project-description p {
-    font-family: var(--secondary-font);
+    font-family: var(--principal-font);
     font-size: 2rem;
     font-weight: 300;
 }
 
 .my-projects a {
-    font-family: var(--principal-font);
+    font-family: var(--secondary-font);
     color: var(--dark-grey);
     font-size: 2rem;
     background-color: var(--secondary-color);
@@ -63,7 +63,7 @@
     text-align: center;
     margin-top: auto;
     align-self: center;
-    box-shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+    box-shadow: var(--shadow);
 }
 
 .my-projects a:hover {

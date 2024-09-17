@@ -58,7 +58,7 @@
 }
 
 .aboutme .text-about p {
-    font-family: var(--secondary-font);
+    font-family: var(--principal-font);
     font-size: 2rem;
     font-weight: 300;
     margin: 5% 5px;

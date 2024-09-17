@@ -5,9 +5,10 @@
     --white: #fff;
     --dark-grey: #282828;
     --gradient: linear-gradient(90deg, rgba(111,144,194,1) 0%, rgba(40,40,40,1) 15%);
-}
+    --shadow: 4px 6px 4px rgba(0, 0, 0, 0.2);
+}   
 
 :root {
-    --principal-font: "Oxanium", sans-serif;
-    --secondary-font: "Rubik", sans-serif;
+    --principal-font: "Rubik", sans-serif;
+    --secondary-font: "Oxanium", sans-serif;
 }
