@@ -66,12 +66,9 @@ Clicando em alguma opção, o scroll vai automaticamente para a seção desejada
 <br>
 
 ## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Tecnologias utilizadas</span>
-<img alt="HTML logo" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
-">
-<img alt="CSS logo" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
-">
-<img alt="JavaScript logo" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E">
-
+<img alt="HTML logo" src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5">
+<img alt="CSS logo" src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6">
+<img alt="JavaScript logo" src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript">
 <br>
 <br>
 
