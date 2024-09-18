@@ -22,10 +22,11 @@
     gap: 2rem;
     justify-content: center;
     margin-bottom: 80px;
+    min-width: 100%;
 }
 
 .my-projects .project .project-img {
-    max-width: 30%;
+    max-width: 430px;
 }
 
 .my-projects .project .project-description {

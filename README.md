@@ -11,7 +11,7 @@
 <br>
 <br>
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px;">Índice </span>
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px;">⚪Índice </span>
 * [DESCRIÇÃO](#descrição)
 * [FUNCIONALIDADES](#funcionalidades)
 * [TECNOLOGIAS UTILIZADAS](#tecnologias-utilizadas)
@@ -22,7 +22,7 @@
 <br>
 
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Descrição</span> 
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">⚪Descrição</span> 
 Esse é um projeto do meu portfólio profissional como desenvolvedor frontend.
 
 Além da necessidade de criar meu proprio portfólio colocando a mão na massa, o mesmo projeto teve a motivação de um desafio proposto no curso do qual sou aluno, o DevQuest, ministrado pelos gêmeos Ricardo e Roberto do Dev em Dobro.
@@ -32,7 +32,7 @@ O projeto basicamente além de mostrar um pouco sobre minha pessoa e gostos pess
 <br>
 <br>
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Funcionalidades </span>
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">⚪Funcionalidades</span>
 ⭐ O projeto possui um visual mais claro, tendo a linguagem padrão inglês, mas com a opção mudar a língua para português.
 <div align="center"><img src="src/images/readme-img/my-portfolio1.gif" width="50%"></div>
 
@@ -65,21 +65,21 @@ Clicando em alguma opção, o scroll vai automaticamente para a seção desejada
 <br>
 <br>
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Tecnologias utilizadas</span>
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">⚪Tecnologias utilizadas</span>
 <img alt="HTML logo" src="https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5">
 <img alt="CSS logo" src="https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6">
 <img alt="JavaScript logo" src="https://img.shields.io/badge/-JavaScript-333333?style=flat&logo=javascript">
 <br>
 <br>
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Link do projeto</span>
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">⚪Link do projeto</span>
 
 [![Link do projeto](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=GitHub%20Pages&logoColor=white)](https://danielwallach.github.io/my-portfolio/) 
 
 <br>
 <br>
 
-## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">Autor</span>
+## <span style="background-color: #6F90C2; color: #3E425A; border-radius:5px; padding:2px">⚪Autor</span>
 
 
 <a href="https://github.com/danielwallach">
